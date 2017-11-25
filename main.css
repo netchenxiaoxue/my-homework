@@ -1,0 +1,141 @@
+    .qui-page{
+    	width: 640px;
+    }
+    .qui-header{
+    	width: 100%;
+    	height: 80px;
+    	overflow: hidden;
+    	background-color: #2bab79;
+    }
+    .container{
+    	width: 100%;
+    	-webkit-box-sizing:border-box;
+        -moz-box-sizing:border-box;
+        box-sizing: border-box;
+    }
+    .plcroutelist{
+    	border-bottom: 1px solid #e6e8ea;
+    	background-color: #fff;
+    	padding-left: 5px;
+    }
+    .plcroutelist li{
+    	border:15px 5px 15px 0;
+    	border-top: 1px solid #e6e8ea;
+    }
+    .plcroutelist a{
+    	display: block;
+    	position: relative;
+    }
+    .plcroutelist .pic{
+    	display: block;
+    	min-height: 150px;
+    }
+    .plcroutelist .bottom{
+    	position: absolute;
+    	left: 0;
+    	right: 0;
+    	bottom: 0;
+    	height: 50;
+    	padding: 30px 0 0 60px;
+    	color: #fff;
+    	background-image: -webkit-linear-gradient(top,rgba(0,0,0),rgba(0,0,0,0.6))
+    	background-image:linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0.6));
+    }
+    .plcroutelist .bottom .face{
+    	float: left;
+    	margin-left: -50px;
+    	width: 38px;
+    	height: 38px;
+    	border: 1px solid #fff;
+    	border-radius: 50%;
+    	overflow: hidden;
+    }
+    .plcroutelist .bottom .face img{
+    	display: block;
+    	border-radius: 50%;
+    }
+    .plcroutelist .bottom .title{
+        width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 22px;
+    }
+    .plcroutelist .day{
+    	position: absolute;
+    	top: 10px;
+    	right: 10px;
+    	width: 50px;
+    	height: 50px;
+    	background-color: rgba(43,171,121,0.8);
+    	border-radius: 50%;
+    	text-align: center;
+    	font-size: 18px;
+    	line-height: 50px;
+    	color: #fff;
+    }
+     .plcroutelist .infos{
+     	margin-top: 7px;
+     }
+      .plcroutelist .infos>div{
+      	margin-bottom: 5px;
+      	padding-left: 40px;
+      }
+       .plcroutelist .infos em{
+       	float: left;
+       	margin-left: -40px;
+       	font-size: 15px;
+       	font-weight: bold;
+       }
+        .plcroutelist .infos p{
+        	max-height: 48px;
+        	overflow: hidden;
+        }
+        .qui-footerbasic{
+        	width: 100%;
+        	margin: 20px 0;
+            text-align: 10px;
+            line-height: 20px;
+        }
+        .qui-footerbasic .switchstyle{
+        	color: #9ea3ab;
+        }
+        .qui-footerbasic .switchstyle span{
+        	margin-left: 30px;
+        }
+        .qui-footerbasic .switchstyle a{
+        	color: #444;
+        	text-decoration: none;
+        }
+	.qui-asides{
+		position: absolute;
+		left: -200px;
+		top: 0px;
+		height: 400px;
+		width: 200px;
+	}
+	.qui-aside{
+	position: fixed;
+	top: 0;
+    bottom: 0;
+    width: 200px;
+    overflow-y: scroll;
+    background-color: #2d3741;
+	}
+	.qui-asidenav{
+		padding: 80px 10px 10px;
+	}
+	.qui-asidenav li{
+		border-top: 1px solid #232d34;
+		background-color: #36424b;
+	}
+	.qui-asidenav a{
+		text-decoration: none;
+		display: block;
+		padding-left: 15px;
+		font-size: 16px;
+		line-height: 44px;
+		color: #ced1d5;
+	}
